@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>eyeTrack</class>
+ <widget class="QWidget" name="eyeTrack">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2200</width>
+    <height>1400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(30,30,30);</string>
+  </property>
+  <widget class="QLabel" name="VideoLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(234, 243, 255);</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="displayLabel">
+   <property name="geometry">
+    <rect>
+     <x>1920</x>
+     <y>50</y>
+     <width>400</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(220, 255, 247);</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>1080</y>
+     <width>600</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(220, 255, 247);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ReducePushButton">
+   <property name="geometry">
+    <rect>
+     <x>1950</x>
+     <y>590</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>速度-</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AddPushButton">
+   <property name="geometry">
+    <rect>
+     <x>1950</x>
+     <y>500</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>速度+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DirectionPushButton">
+   <property name="geometry">
+    <rect>
+     <x>1950</x>
+     <y>780</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>纵向</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>1950</x>
+     <y>690</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LayoutDirection::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+color: black;
+background-color: rgb(250, 255, 246);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>        设备</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="OutPushButton">
+   <property name="geometry">
+    <rect>
+     <x>1950</x>
+     <y>860</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StarPushButton">
+   <property name="geometry">
+    <rect>
+     <x>1950</x>
+     <y>1030</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>预测矫正</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OutSavePushButton">
+   <property name="geometry">
+    <rect>
+     <x>1950</x>
+     <y>950</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>保存退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="NystagmusSimulation">
+   <property name="geometry">
+    <rect>
+     <x>1950</x>
+     <y>1110</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>眼震模拟</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
